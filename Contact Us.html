@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+<div id="header">
+<li id="site_name">Creatly.com</li>
+<li><a href="Home.html">HOME</li></a>
+<li><a href="About Us.html">ABOUT US</li></a>
+<li><a href="Blogs.html">BLOGS</li></a>
+<li><a href="Services.html">SERVICES</li></a>
+<li><a href="Sign Up.html">SIGN UP</li></a>
+<li><p><div class="align="center" cols="6">
+<a href="Contact Us.html"><input type="button"value="Contact Us"><span class="mr-2 icon-paper-plane"></span>
+</a></div></p></li>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+	<option value="India">India</option>
+     <option value="Philipions">Philipions</option>
+      <option value="Japan">Japan</option>
+      <option value="usa">USA</option>
+	<option value="Itly">Itly</option>
+	<option value="Chaina">Chaina</option>
+	<option value="France">France</option>
+	<option value="Pakistan">Pakistan</option>
+	
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>
